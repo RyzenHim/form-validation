@@ -40,7 +40,7 @@ form {
   /* min-width: 30vw; */
   height: 70%;
   margin: 20px auto;
-  padding: 0 20px 10px 20px;
+  /* padding: 0 20px 10px 20px; */
   background: rgba(255, 255, 255, 0.186);
   backdrop-filter: blur(5px);
   border-radius: 5px;
@@ -96,7 +96,7 @@ input:focus {
   outline: none;
 }
 .submitBtn {
-  margin: 20px 0 5px 0;
+  margin: 20px 20px 15px 20px;
   padding: 10px 0;
   border: none;
   cursor: pointer;
@@ -119,6 +119,9 @@ input:focus {
   outline: none;
   border: none;
 }
+.submitBtn:active {
+  transform: scale(0.99);
+}
 #number::-webkit-inner-spin-button {
   appearance: none;
 }
@@ -136,4 +139,5 @@ small {
 .form_control {
   /* background-color: red; */
   height: auto;
+  margin: 0 20px 10px 20px;
 }
