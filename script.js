@@ -82,7 +82,7 @@ function setErrorMsg(currentTag, msg) {
   small.innerHTML = msg;
   small.style.color = "red";
   small.style.visibility = "visible";
-  currentTag.style.border = "2px solid red";
+  currentTag.style.border = "1px solid red";
   currentTag.style.backgroundImage = `url(assets/gpp_maybe_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg)`;
 }
 function setSuccessMsg(currentTag, msg) {
