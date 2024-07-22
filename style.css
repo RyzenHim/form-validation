@@ -36,7 +36,7 @@ main {
   /* background-blend-mode: multiply; */
 }
 form {
-  width: 40vw;
+  width: clamp(400px, 40vw, 50vw);
   /* min-width: 30vw; */
   height: 70%;
   margin: 20px auto;
