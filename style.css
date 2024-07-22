@@ -11,9 +11,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: #333; */
   position: fixed;
-  /* color: white; */
   text-transform: uppercase;
   letter-spacing: 1px;
   box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.462);
@@ -28,19 +26,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: red; */
-  /* background-image: linear-gradient(to bottom right, red, red, yellow); */
   background: url(assets/2.jpg);
-  /* background-size: contains; */
   background-repeat: no-repeat;
-  /* background-blend-mode: multiply; */
 }
 form {
   width: clamp(400px, 40vw, 50vw);
-  /* min-width: 30vw; */
   height: 70%;
   margin: 20px auto;
-  /* padding: 0 20px 10px 20px; */
   background: rgba(255, 255, 255, 0.186);
   backdrop-filter: blur(5px);
   border-radius: 5px;
@@ -56,21 +48,15 @@ form {
   width: 100%;
   height: 8%;
   color: #fff;
-  /* text-align: center; */
-  /* background-color: rgba(255, 0, 0, 0.59); */
   border-radius: 3px;
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: 1px;
-  /* position: relative;
-  left: 0;
-  right: 0; */
   margin-bottom: 25px;
 }
 label {
-  /* margin: 20px 0 20px 0; */
   text-transform: capitalize;
   font-weight: 500;
   margin-bottom: 10px;
@@ -80,15 +66,12 @@ input {
   padding: 10px;
   margin: 8px 0 5px 0;
   border: none;
-  /* background-color: #333; */
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.068);
   backdrop-filter: blur(5px);
-  color: black;
+  color: rgb(254, 254, 254);
   font-weight: 400;
   letter-spacing: 1px;
-  /* position: relative; */
-  /* background-image: url(assets/verified_user_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg); */
   background-repeat: no-repeat;
   background-position: 99%;
 }
@@ -101,15 +84,12 @@ input:focus {
   border: none;
   cursor: pointer;
   background-color: transparent;
-  /* background-color: #3492018e; */
   backdrop-filter: blur(1px);
   color: white;
   letter-spacing: 1px;
   font-weight: 400;
   border-radius: 5px;
   transition: all 0.2s ease-in;
-  /* box-shadow: 0 0 15px 1px; */
-  /* text-decoration: dashed; */
   background-color: #306386c5;
   box-shadow: 0 0 5px 1px;
 }
@@ -129,15 +109,10 @@ small {
   color: red;
   position: relative;
   left: 1px;
-  /* display: none; */
   visibility: hidden;
   font-weight: 700;
-  /* text-shadow: black; */
-  /* background-color: #fff; */
-  /* display: inline; */
 }
 .form_control {
-  /* background-color: red; */
   height: auto;
   margin: 0 20px 10px 20px;
 }
